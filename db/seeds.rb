@@ -1,7 +1,32 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+require 'rest-client'
+require 'json'
+require 'pry'
+
+data = RestClient.get 'https://quiniwine.com/api/pub/wineKeywordSearch/white/0/10', {:Authorization => 'Bearer KpENVmRkf9jyAjk8w2pX', :accept => 'application/json'}
+
+var = JSON.parse(data)
+
+var["items"].each_with_index do |x, index|
+  QuiniWine.create(
+    sequence: index,
+    area: x["Area"],
+    country: x["Country"],
+    name: x["Name"],
+    province: x["Province"],
+    style: x["Style"],
+    wine_type: x["Type"],
+    varietal: x["Varietal"],
+    winery: x["Winery"],
+    api_id: x["Id"],
+    vintage: x["Vintage"])
+end
+
+# javascript fetch
+# fetch('https://quiniwine.com/api/pub/wineKeywordSearch/white/0/1000',
+#   {headers:
+#   {'Accept':'application/json',
+#     'Authorization': 'Bearer KpENVmRkf9jyAjk8w2pX'
+#   },
+# })
+# .then(res => res.json())
+# .then(console.log)

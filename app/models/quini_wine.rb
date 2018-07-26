@@ -1,0 +1,2 @@
+class QuiniWine < ApplicationRecord
+end

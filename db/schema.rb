@@ -10,10 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_26_190233) do
+ActiveRecord::Schema.define(version: 2018_07_26_210900) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "quini_wines", force: :cascade do |t|
+    t.integer "sequence"
+    t.string "area"
+    t.string "country"
+    t.string "name"
+    t.string "province"
+    t.string "style"
+    t.string "wine_type"
+    t.string "varietal"
+    t.string "winery"
+    t.string "api_id"
+    t.string "vintage"
+  end
 
   create_table "regions", force: :cascade do |t|
     t.string "name"
