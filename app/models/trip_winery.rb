@@ -1,0 +1,2 @@
+class TripWinery < ApplicationRecord
+end
