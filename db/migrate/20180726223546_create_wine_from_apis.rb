@@ -1,6 +1,6 @@
-class CreateQuiniWines < ActiveRecord::Migration[5.2]
+class CreateWineFromApis < ActiveRecord::Migration[5.2]
   def change
-    create_table :quini_wines do |t|
+    create_table :wine_from_apis do |t|
       t.integer :sequence
       t.string :area
       t.string :country

@@ -1,0 +1,2 @@
+class WineFromApi < ApplicationRecord
+end
