@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_26_223546) do
+ActiveRecord::Schema.define(version: 2018_07_27_020831) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -62,12 +62,16 @@ ActiveRecord::Schema.define(version: 2018_07_26_223546) do
     t.integer "region_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "area"
+    t.string "country"
+    t.string "province"
+    t.integer "api_sequence"
   end
 
   create_table "wines", force: :cascade do |t|
     t.string "name"
     t.string "varietal"
-    t.string "type"
+    t.string "wine_type"
     t.string "style"
     t.string "api_id"
     t.integer "winery_id"

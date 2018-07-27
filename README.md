@@ -33,3 +33,6 @@ class CreateWineFromApis < ActiveRecord::Migration[5.2]
     end
   end
 end
+
+rails generate migration add_area_to_wineries area
+rails g migration rename_type_to_wine_type
