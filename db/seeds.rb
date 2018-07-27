@@ -53,7 +53,9 @@ require 'pry'
 
 # \copy wine_from_apis to 'wine_from_apis.csv' DELIMITER ',' CSV HEADER;
 
+Wine.delete_all
 Winery.delete_all
+Region.delete_all
 
 api = WineFromApi.all
 
@@ -103,7 +105,7 @@ api.each do |api|
     puts("saved Wine #{api["name"]}")
   end
   wine_count = wine_count + 1
-  break if wine_count > 50
-  sleep(1)
+  break if wine_count > 1000
+
 end
 puts("saved wineries=#{created} skipped=#{skipped} saved wines=#{wine_count} regions=#{region_count}")
