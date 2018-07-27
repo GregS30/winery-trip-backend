@@ -1,2 +1,0 @@
-class WineriesController < ApplicationController
-end

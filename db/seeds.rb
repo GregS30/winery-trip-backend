@@ -20,25 +20,25 @@ require 'pry'
 # so we're only missing about the last 200
 
 
-# data = RestClient.get 'https://quiniwine.com/api/pub/wineKeywordSearch/rose/0/10000', {:Authorization => 'Bearer KpENVmRkf9jyAjk8w2pX', :accept => 'application/json'}
-#
-# var = JSON.parse(data)
-#
-# var["items"].each_with_index do |x, index|
-#   puts(x["Name"])
-#   WineFromApi.create(
-#     sequence: index,
-#     area: x["Area"],
-#     country: x["Country"],
-#     name: x["Name"],
-#     province: x["Province"],
-#     style: x["Style"],
-#     wine_type: x["Type"],
-#     varietal: x["Varietal"],
-#     winery: x["Winery"],
-#     api_id: x["Id"],
-#     vintage: x["Vintage"])
-# end
+data = RestClient.get 'https://quiniwine.com/api/pub/wineKeywordSearch/white/0/1000', {:Authorization => 'Bearer KpENVmRkf9jyAjk8w2pX', :accept => 'application/json'}
+
+var = JSON.parse(data)
+
+var["items"].each_with_index do |x, index|
+  puts(x["Name"])
+  WineFromApi.create(
+    sequence: index,
+    area: x["Area"],
+    country: x["Country"],
+    name: x["Name"],
+    province: x["Province"],
+    style: x["Style"],
+    wine_type: x["Type"],
+    varietal: x["Varietal"],
+    winery: x["Winery"],
+    api_id: x["Id"],
+    vintage: x["Vintage"])
+end
 
 # select varietal, count(*) from wine_from_apis where varietal not like '%,%' group by varietal having count(*) > 30 order by count(*) desc;
 
