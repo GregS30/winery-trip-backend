@@ -36,3 +36,5 @@ end
 
 rails generate migration add_area_to_wineries area
 rails g migration rename_type_to_wine_type
+rails generate migration add_vintage_to_wine vintage
+rails generate migration add_region_to_wine_from_apis region

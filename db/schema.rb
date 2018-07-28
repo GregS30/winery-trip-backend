@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_27_020831) do
+ActiveRecord::Schema.define(version: 2018_07_27_203626) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -55,6 +55,7 @@ ActiveRecord::Schema.define(version: 2018_07_27_020831) do
     t.string "winery"
     t.string "api_id"
     t.string "vintage"
+    t.string "region"
   end
 
   create_table "wineries", force: :cascade do |t|
@@ -77,6 +78,7 @@ ActiveRecord::Schema.define(version: 2018_07_27_020831) do
     t.integer "winery_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "vintage"
   end
 
 end
