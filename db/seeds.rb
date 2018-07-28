@@ -2,7 +2,6 @@ require 'rest-client'
 require 'json'
 require 'pry'
 
-
 # javascript fetch
 # fetch('https://quiniwine.com/api/pub/wineKeywordSearch/white/0/100',
 #   {headers:
@@ -52,11 +51,6 @@ def save_wines(wines, color)
   end
 end
 
-def get_region(country, province, area)
-
-end
-
-
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # un-comment this section to fetch wines from api
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -84,6 +78,16 @@ end
 # select country, left(area,20), province, count(sequence) from wine_from_apis group by country, area, province order by count(sequence) DESC;
 
 # \copy wine_from_apis to 'wine_from_apis.csv' DELIMITER ',' CSV HEADER;
+
+def get_grape(varietal, wine_type)
+
+  top_grapes = [
+  'Barbera',  'Cabernet Franc', 'Cabernet Sauvignon', 'Chambourcin', 'Chardonnay', 'Chenin Blanc', 'Concord', 'Frontenac', 'Gamay', 'Gewurztraminer', 'Grenache', 'Gruner Veltliner', 'Malbec', 'Merlot', 'Montepulciano', 'Mourvedre', 'Muscat', 'Nebbiolo', 'Pinot Blanc', 'Pinot Grigio', 'Pinot Gris', 'Pinot Noir', 'Prosecco', 'Riesling', 'Sangiovese', 'Sauvignon Blanc', 'Shiraz', 'Tempranillo', 'Trebbiano', 'Vermentino', 'Viognier', 'Zinfandel'
+  ]
+
+# use wine_type (white, red, rose) if varietal is '' or is not a top grape
+  return top_grapes.include?(varietal) ? varietal : wine_type
+end
 
 def get_region(winery)
 
@@ -282,13 +286,14 @@ end
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # change to false to process all data, only 1000 rows otherwise
-TEST_RUN = true
-TEST_MAX = 10
+TEST_RUN = false
+TEST_MAX = 500
 SILENT = true
 
 Wine.delete_all
 Winery.delete_all
 Region.delete_all
+Grape.delete_all
 
 api = WineFromApi.all
 
@@ -296,6 +301,7 @@ created = 0
 skipped = 0
 wine_count = 0
 region_count = 0
+grape_count = 0
 
 puts("runtime options TEST_RUN=#{TEST_RUN} TEST_MAX=#{TEST_MAX} SILENT=#{SILENT}")
 
@@ -323,6 +329,9 @@ api.each do |api|
       if @this_region.save
         puts("saved Region #{region}") if !SILENT
         region_count = region_count + 1
+      else
+        puts("Region save failed", @this_region)
+        break
       end
     end
 
@@ -331,29 +340,53 @@ api.each do |api|
     if @this_winery.save
       puts("saved Winery #{created} #{api["winery"]}") if !SILENT
       created = created+1
+    else
+      puts("Winery save failed", @this_winery)
+      break
     end
   else
     skipped = skipped+1
     puts("skipped Winery #{api["winery"]}") if !SILENT
   end
+
   @wine = Wine.new(
     name: api["name"],
     style: api["style"],
     wine_type: api["wine_type"],
-    varietal: api["varietal"],
     api_id: api["id"],
     vintage: api["vintage"],
     winery: @this_winery
   )
 
+  grape = get_grape(api["varietal"], @wine.wine_type)
+
+  if !@this_grape = Grape.find_by(name: grape)
+    @this_grape = Grape.new(
+      name: grape
+    )
+    if @this_grape.save
+      puts("saved Grape #{grape}") if !SILENT
+      grape_count = grape_count + 1
+    else
+      puts("Grape save failed", @this_grape)
+      break
+    end
+
+  end
+
+  @wine.grape = @this_grape
+
   if @wine.save
     puts("saved Wine #{api["name"]}") if !SILENT
+  else
+    puts("Wine save failed", @wine)
+    break
   end
   wine_count = wine_count + 1
 
-  if created % 5000 == 0
-    puts("progress: saved wineries=#{created} skipped=#{skipped} saved wines=#{wine_count} regions=#{region_count}")
+  if created % 1000 == 0
+    puts("progress: wineries=#{created} wines=#{wine_count} regions=#{region_count} grapes=#{grape_count}")
   end
 
 end
-puts("completed: saved wineries=#{created} skipped=#{skipped} saved wines=#{wine_count} regions=#{region_count}")
+puts("completed: wineries=#{created} (skipped=#{skipped})  wines=#{wine_count} regions=#{region_count} grapes=#{grape_count}")
