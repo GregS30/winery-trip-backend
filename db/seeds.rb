@@ -15,7 +15,7 @@ require 'pry'
 
 
 # for testing, change MAX_FETCH to small number, otherwise 20000
-MAX_FETCH = 20000
+MAX_FETCH = 100
 BASE_URL = 'https://quiniwine.com/api/pub/wineKeywordSearch/'
 TOKEN = 'Bearer KpENVmRkf9jyAjk8w2pX'
 
@@ -33,8 +33,8 @@ end
 def save_wines(wines, color)
   wines["items"].each_with_index do |wine, index|
     if !WineFromApi.find_by(api_id: wine["id"])
-      puts("count #{api_count} name #{wine["Name"]}")
-      api_count = api_count + 1
+      # puts("count #{api_count} name #{wine["Name"]}")
+      # api_count = api_count + 1
       WineFromApi.create(
         sequence: index+1,
         area: wine["Area"].rstrip,
@@ -60,8 +60,8 @@ end
 # un-comment this section to fetch wines from api
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# white_wines = fetch_wines('white')
-# save_wines(white_wines, 'white')
+white_wines = fetch_wines('white')
+save_wines(white_wines, 'white')
 # red_wines = fetch_wines('red')
 # save_wines(red_wines, 'red')
 # rose_wines = fetch_wines('rose')
