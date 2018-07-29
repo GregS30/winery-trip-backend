@@ -31,7 +31,6 @@ def fetch_wines(keyword)
 end
 
 def save_wines(wines, color)
-
   wines["items"].each_with_index do |wine, index|
     if !WineFromApi.find_by(api_id: wine["id"])
       puts("count #{api_count} name #{wine["Name"]}")
