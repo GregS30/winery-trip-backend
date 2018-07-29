@@ -58,8 +58,8 @@ end
 # un-comment this section to fetch wines from api
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-white_wines = fetch_wines('white')
-save_wines(white_wines, 'white')
+# white_wines = fetch_wines('white')
+# save_wines(white_wines, 'white')
 # red_wines = fetch_wines('red')
 # save_wines(red_wines, 'red')
 # rose_wines = fetch_wines('rose')
