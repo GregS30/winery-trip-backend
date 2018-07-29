@@ -1,7 +1,5 @@
 require 'rest-client'
 require 'json'
-require 'pry'
-
 
 # javascript fetch
 # fetch('https://quiniwine.com/api/pub/wineKeywordSearch/white/0/100',
