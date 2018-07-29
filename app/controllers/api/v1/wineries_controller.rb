@@ -19,7 +19,7 @@ class Api::V1::WineriesController < ApplicationController
 
     @winerydetail = JSON.parse(@winerydetail)
 
-    render json: @winerydetail
+    render json: @winerydetail["result"]
   end
 
 end
