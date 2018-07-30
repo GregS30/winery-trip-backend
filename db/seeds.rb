@@ -54,12 +54,12 @@ end
 # un-comment this section to fetch wines from api
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-white_wines = fetch_wines('white')
-save_wines(white_wines, 'white')
-red_wines = fetch_wines('red')
-save_wines(red_wines, 'red')
-rose_wines = fetch_wines('rose')
-save_wines(rose_wines, 'rose')  # crashes after 4,567, have to figure out how to trap end of response when < MAX_FETCH
+# white_wines = fetch_wines('white')
+# save_wines(white_wines, 'white')
+# red_wines = fetch_wines('red')
+# save_wines(red_wines, 'red')
+# rose_wines = fetch_wines('rose')
+# save_wines(rose_wines, 'rose')  # crashes after 4,567, have to figure out how to trap end of response when < MAX_FETCH
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # some psql queries to count things
