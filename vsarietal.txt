@@ -1,0 +1,1058 @@
+                                varietal                                | count 
+------------------------------------------------------------------------+-------
+ Garnacha Tintorera                                                     |     2
+ Moscato Reale                                                          |     1
+ Hondarrabi Zuri Hondarribi Beltza                                      |     1
+ Nasco                                                                  |     2
+ Crianza                                                                |     2
+ Durif                                                                  |     2
+ Foch                                                                   |     2
+ Dindarella                                                             |     1
+ Gamay noir                                                             |     1
+ Carmenere                                                              |    55
+ Müller Thurgau                                                         |     1
+ Merlot Vidal                                                           |     1
+ tempranillo grenache                                                   |     1
+ Passerina                                                              |    24
+ Catarratto Ansonica                                                    |     1
+ Tempranillo Syrah Petit Verdot Graciano Tannat                         |     1
+ Gaglioppo                                                              |     9
+ Garnatxa                                                               |     3
+ Meritage                                                               |     8
+ Negroamaro                                                             |    89
+ Xynomavro                                                              |     2
+ Savagnin                                                               |     4
+ Dechaunac                                                              |     1
+ Rare Red Blend                                                         |     4
+ Carlos Muscadine                                                       |     2
+ Frontenac Gris                                                         |    50
+ Cabernet Sauvignon Merlot Cabernet Franc Syrah                         |     1
+ Pallagrello                                                            |     1
+ Refosco                                                                |    12
+ Grenache Syrah                                                         |     4
+ Pinot blanc                                                            |     2
+ St. Pepin                                                              |    13
+ White Merlot                                                           |     1
+ Le Crescent                                                            |     1
+ Shiraz Cabernet                                                        |     1
+ LaCrosse                                                               |    17
+ Blind                                                                  |     1
+ Vernacchia                                                             |     1
+ 2012                                                                   |     1
+ Cabernet Sauvignon Blend                                               |     1
+ Plavac Mali                                                            |     5
+ Dry Riesling                                                           |     4
+ Cuvee Brut                                                             |     1
+ Niagara                                                                |   179
+ Cayuga                                                                 |   112
+ Tai (Tocai Friulano)                                                   |     1
+ Cabernet Blanc                                                         |     1
+ Shiraz-Sangiovese                                                      |     2
+ L'Acadie Blanc                                                         |     3
+ Roero Arneis                                                           |     2
+ Schiava                                                                |     4
+ Aleatico                                                               |     5
+ Evangeline                                                             |     1
+ Zinfandel Rose                                                         |     1
+ Cabernet Sauvingnon                                                    |     1
+ Tocai (Friulano)                                                       |     1
+ Sangiovese Grosso                                                      |    40
+ Sémillon and Sauvignon Blanc                                           |     1
+ Bombino Bianco                                                         |     2
+ Lagrein                                                                |    36
+ Garganega                                                              |    84
+ Ribona                                                                 |     2
+ Marechal Foch blend                                                    |     1
+ Terodelgo                                                              |     2
+ Viognier Chenin Blanc Grenache Blanc                                   |     1
+ Viura Macabeo                                                          |     1
+ Chateauneuf Du Pape                                                    |     4
+ Grenache Merlot Carignan Cinsault                                      |     1
+ Riesling                                                               |  1591
+ Rondo Regent                                                           |     1
+ Tranzind                                                               |     1
+ Muscat Cannelli                                                        |     1
+ Tinta Negra Mole                                                       |     1
+ Casavecchia                                                            |     4
+ Aglianico di Taurasi                                                   |     2
+ Vernaccia (Bianchetta Trevigiano)                                      |     1
+ Furmint Harslevelű Zeta                                                |     2
+ Monica                                                                 |     5
+ Cabernet sauvignon                                                     |     5
+ Reliance                                                               |     2
+ Ravat                                                                  |     2
+ Gewürztraminer                                                         |    62
+ Galvez                                                                 |     1
+ Vernatsch                                                              |     8
+ Barbera                                                                |   417
+ Orange Muscat                                                          |    33
+ Prosecco Treviso                                                       |     1
+ Sovereign Opal                                                         |     2
+ Petit Sirah Petit Verdot                                               |     1
+ Cayuga. St. Pepin                                                      |     1
+ Vernatsch (Schiava)                                                    |     1
+ Vernaccia                                                              |    28
+ Aromella                                                               |     1
+ Carbenet                                                               |     1
+ Chardonnay Blanc de Blanc                                              |     2
+ Blaufränkisch                                                          |     1
+ Port Blend                                                             |     1
+ Sauvignon Blanc Semillon                                               |     2
+ Orion                                                                  |     5
+ Steuben (aka Ambrosia)                                                 |     1
+ Riesling/Vidal                                                         |     1
+ Seyval Phoenix                                                         |     1
+ Verdac                                                                 |     1
+ Chardonel                                                              |   107
+ Malbec Cabernet Sauvignon Syrah                                        |     1
+ Pinot Nero Bianco                                                      |     1
+ Brachetto                                                              |    25
+ Cabernet merlot                                                        |     1
+ Trebbiano d'Abruzzo                                                    |     1
+ Viognier-Chardonnay                                                    |     1
+ Chilean Malbec                                                         |     1
+ Riesling gewürztraminer                                                |     2
+ Vidal Chardonnay                                                       |     1
+ Merlot Cabernet Sauvignon Malbec Barbera Syrah                         |     1
+ Kinali yapincak                                                        |     2
+ Maréchal Foch                                                          |     1
+ Bacchus                                                                |    98
+ Trincadeira                                                            |     2
+ Muscat de Frontignan                                                   |     1
+ Mead                                                                   |     1
+ Melody                                                                 |     1
+ Traminer Aromatico                                                     |     5
+ Auxerrois                                                              |     6
+ Semillon/chardonnay                                                    |     1
+ Triomphe D'Alsace                                                      |     2
+ Marquette                                                              |    46
+ Coda di Volpe                                                          |    10
+ Pinot Nero                                                             |     2
+ Abarino                                                                |     1
+ Corvina                                                                |    27
+ Carignan Syrah                                                         |     1
+ blend                                                                  |     2
+ Manzoni                                                                |     1
+ Mourvèdre                                                              |     2
+ Verdelet Blanc                                                         |     1
+ Aligote                                                                |     6
+ Bordeaux                                                               |     8
+ Catarratto                                                             |    11
+ Vandal Cliche                                                          |     1
+ Teran                                                                  |     1
+ Primativo                                                              |     1
+ Cabernet Sauvignon Merlot Malbec                                       |     1
+ Moscat                                                                 |     1
+ Red                                                                    |     3
+ Tocai Pinot Gris                                                       |     1
+ Cava Blend                                                             |     4
+ Muscat of Alessandria                                                  |     2
+ Chardonnay Sauvignon Blanc Viognier Muscat                             |     1
+ Solaris                                                                |    10
+ Spanish Black                                                          |     1
+ DeChaunac                                                              |     9
+ Concord                                                                |   206
+ Touriga                                                                |     5
+ Dark Red Blend                                                         |     1
+ Petite Sirah Syrah                                                     |     1
+ Pinot Gris                                                             |   670
+ Pinot Grigio                                                           |   685
+ Sangiovese (Prugnolo Gentile)                                          |     1
+ Bombino                                                                |     2
+ Pinot Auxerrois                                                        |     3
+ Norto                                                                  |     1
+ Traminer Armoatico                                                     |     1
+ Gamay                                                                  |    96
+ Isabella                                                               |     8
+ sauvignon blanc                                                        |     1
+ Muscat Vermentino Colombard                                            |     1
+ Malbec/Grenache                                                        |     1
+ Reisling                                                               |     1
+ Uva di Troia                                                           |     1
+ Geisenheim                                                             |     5
+ Assyrtiko Athiri                                                       |     1
+ Zinfandel                                                              |   990
+ Pubot Noir                                                             |     1
+ Vivant                                                                 |     2
+ LaCrescent                                                             |     3
+ Bella Rosa                                                             |     1
+ St Croix                                                               |     3
+ Washington Red                                                         |     1
+ Susumaniello                                                           |     4
+ Mencia                                                                 |     3
+ Valdiguie                                                              |     1
+ Guardavalle                                                            |     1
+ Groppello                                                              |     1
+ Petit Verdot Cabernet Sauvignon Merlot                                 |     1
+ Montreal Bleu                                                          |     1
+ Muscat Hamburg                                                         |     1
+ Sauvignon Musqué                                                       |     2
+ Manzoni Moscato                                                        |     1
+ Gobulak                                                                |     1
+ Apple                                                                  |     1
+ sangiovese                                                             |     1
+ GR7                                                                    |     1
+ Pecolit                                                                |     1
+ Grenache Blanc                                                         |    45
+ La Crescent                                                            |    38
+ Cabernet Franc                                                         |   598
+ Merlot Petite Sirah Cabernet Sauvignon                                 |     1
+ Niagara Grapes                                                         |     1
+ http://www.bothyvineyard.co.uk/our-varieties.html                      |     2
+ Cuvee                                                                  |     1
+ Avalon Cabernet Sauvignon                                              |     1
+ Dom Riesling                                                           |     1
+ Domain                                                                 |     1
+ Riesling Gewurztraminer Pinot Blanc                                    |     1
+ Tinto de Toro                                                          |     1
+ White Garnacha Macabeu Chardonnay                                      |     1
+ Grenache Cinsaut Syrah                                                 |     1
+ pinot Noir                                                             |     1
+ Villard                                                                |     2
+ Rhone                                                                  |     1
+ chardonnay                                                             |     2
+ CAB                                                                    |     1
+ Longanesi                                                              |     1
+ Magliocco                                                              |     2
+ French Colombard                                                       |     1
+ Moscatello                                                             |     1
+ Cabernet franc                                                         |     4
+ Calabrese                                                              |     2
+ Castel                                                                 |     1
+ Mosato                                                                 |     1
+ Moscato Rosa                                                           |     2
+ Cava                                                                   |     2
+ de Chaunac                                                             |     1
+ Verduzzo                                                               |    12
+ Proprietary Bordeaux Blend                                             |     1
+ Carignan                                                               |    26
+ Clairette Blanche                                                      |     1
+ Saint-Emilion                                                          |     1
+ Rayon d'Or                                                             |     1
+ Marechal Marechal Foch                                                 |     1
+ Villard Blanc                                                          |     7
+ Petite sirah                                                           |     1
+ Schonburger                                                            |     4
+ Edelweiss                                                              |    51
+ Huxelrebe                                                              |     7
+ Tinto                                                                  |     3
+ cabernet Franc                                                         |     3
+ Bogazkere & Carignan                                                   |     1
+ Red blend                                                              |    66
+ Pinot Blanc                                                            |   181
+ Seyval Blend                                                           |     1
+ Aurore Blend                                                           |     1
+ Cerasuolo                                                              |     1
+ Soave Classico                                                         |     1
+ Valiant                                                                |     4
+ Tempranillo Garnacha                                                   |     1
+ Des                                                                    |     1
+ Cynthiann                                                              |     1
+ Ugni Blanc Colombard                                                   |     1
+ Grand Noir                                                             |     1
+ Tai Rosso                                                              |     1
+ Temperanillo                                                           |     1
+ pinot Grigio                                                           |     2
+ Melon De Bourgogne                                                     |     7
+ Carmenere Merlot Syrah                                                 |     1
+ Verdelho                                                               |    26
+ Vignole                                                                |     1
+ Chisago                                                                |     1
+ Sabrevois                                                              |     3
+ Prugnolo Gentile                                                       |     4
+ Ortega Chardonnay                                                      |     1
+ Blush Blend                                                            |     1
+ Barbera d'Alba                                                         |     2
+ Grecanico                                                              |     5
+ Pinotage                                                               |    16
+ Brianna                                                                |    28
+ Noble Muscadine                                                        |     4
+ Chenin blanc                                                           |     1
+ Mencía                                                                 |     1
+ Zweigelt St. Laurent                                                   |     1
+ Agiorgitiko                                                            |     1
+ Picpoul Gris                                                           |     1
+ Noirette                                                               |     1
+ Bluebell                                                               |     1
+ Yeast                                                                  |     1
+ Rondinella                                                             |     1
+ Cabernet Sauvignon  Merlot Malbec Petite Sirah                         |     1
+ Carlos                                                                 |    19
+ Traminer                                                               |     7
+ Cabernet Sauvignon Sangiovese Cabernet Franc                           |     1
+ Gamay Cabernet                                                         |     1
+ Roussanne/Marsanne                                                     |     1
+ Alicante BouSchet                                                      |     1
+ Sangiovese blend                                                       |    10
+ Vernaccia. Chardonnay                                                  |     1
+ Cayuga Blanc                                                           |     1
+ Trollinger                                                             |     1
+ Siegerrebe                                                             |    27
+ Gavi                                                                   |     1
+ Dakota                                                                 |     2
+ Chablis                                                                |     2
+ Cabernet Pfeffer                                                       |     1
+ Chardonnay Pinot Noir Pinot Meunier                                    |     3
+ Granacha                                                               |     1
+ Magnolia                                                               |    11
+ Viognier Chardonnay                                                    |     1
+ Pinot Noir                                                             |  2323
+ Mustang                                                                |     6
+ Grenache Carignan Syrah                                                |     1
+ Teroldego                                                              |    21
+ L'Acadie                                                               |     4
+ Pinot Noir Cabernet Franc                                              |     1
+ Raboso                                                                 |    10
+ Barbarossa                                                             |     1
+ Rielsing                                                               |     3
+ Shiraz Malbec                                                          |     1
+ Pinot Noir                                                             |     2
+ Nero di Troia                                                          |     4
+ Beaujolais                                                             |     1
+ Cabernet Merlot                                                        |     2
+ Z                                                                      |     1
+ Muscat Rosa                                                            |     1
+ Schioppettino (Ribolla Nera)                                           |     1
+ Reichensteiner                                                         |    13
+ Musat Canelli                                                          |     1
+ Pecorello                                                              |     1
+ Grenache Syrah Mourvedre                                               |     1
+ Pinot Noir Chardonnay Pinot Meunier                                    |     1
+ Chenin Blanc Chardonnay                                                |     1
+ Shiraz                                                                 |   202
+ Touriga Nacional and Syrah                                             |     1
+ Chardonelle                                                            |     5
+ Saint Vincent                                                          |     1
+ Zweigelt                                                               |    18
+ Pinot Gris Gewurztraminer Riesling Muscat Sylvaner                     |     1
+ Cabernet Franc Chardonnay                                              |     1
+ Alvarinho                                                              |     3
+ White Zinfandel                                                        |     7
+ Kalterersee                                                            |     1
+ Nerello Mascalese                                                      |    22
+ Frontenac Noir                                                         |     1
+ Barolo                                                                 |     4
+ Blend                                                                  |     1
+ Aurore                                                                 |     3
+ Petit Syrah                                                            |     1
+ Rare White Blend                                                       |     3
+ Malvasia Blanc                                                         |     1
+ Bianca                                                                 |     3
+ Swenson                                                                |     3
+ Erbaluce                                                               |     2
+ Ruche di Castagnole                                                    |     3
+ Bianchello                                                             |     1
+ Sauvignon Blanc Sauvignon Gris                                         |     1
+ Trousseau Gris                                                         |     3
+ Cataratto                                                              |     1
+ Primitivo di Manduria                                                  |     1
+ Merlot Syrah Petite Sirah                                              |     1
+ Lambrusco                                                              |    21
+ Red Blend                                                              |   231
+ Touriga Nacional Touriga Franca                                        |     2
+ Pinot Meunier                                                          |    15
+ Muscat Alexandria                                                      |     2
+ Bacchus / Reichensteiner                                               |     1
+ Carignane Grenache                                                     |     2
+ Sancerre                                                               |     1
+ Glera (Prosecco)                                                       |     5
+ Gamay Zweigelt                                                         |     1
+ Rutherford Cabernet Sauvignon                                          |     1
+ Calona                                                                 |     1
+ Columbard                                                              |     3
+ Gamay Noir                                                             |    32
+ Maria Gomes                                                            |     1
+ Semillon Blanc                                                         |     1
+ Ansonica (Inzolia)                                                     |     1
+ Gala                                                                   |     1
+ Siria                                                                  |     1
+ Tempranillo valdepenas                                                 |     1
+ Viognier Marsanne Rousanne                                             |     1
+ Monastrell                                                             |    21
+ Cabarnet Sauvignon                                                     |     1
+ Alicante                                                               |     6
+ Friulano                                                               |    30
+ Golden Muscat                                                          |     1
+ Marchal Foch                                                           |     2
+ Tai Classico                                                           |     1
+ Staghorm Sumac                                                         |     1
+ Kardarka                                                               |     1
+ Rolle                                                                  |     2
+ Moscato di Alessandria                                                 |     1
+ pinot noir                                                             |     2
+ Carménère                                                              |     1
+ Stover                                                                 |     1
+ Cabernet Sauvignon. Zinfandel                                          |     1
+ Cabernet Sauvignon Petite Verdot Petite Sirah Zinfandel Syrah          |     1
+ Amarone                                                                |     1
+ Sauvingon Blanc                                                        |     3
+ White Blend                                                            |    93
+ Gewurtztraminer                                                        |     2
+ De Chaunac                                                             |    10
+ Radiant Red                                                            |     1
+ Mayolet                                                                |     1
+ Semillon-Sauvignon Blanc Blend                                         |     1
+ Rioja - Tempranillo                                                    |     1
+ Verdejo                                                                |    16
+ Moscato Canelli                                                        |     1
+ Carmenere Reserva                                                      |     1
+ Cabernet Franc Cabernet Sauvignon Merlot                               |     1
+ Moscato d'Asti                                                         |     1
+ Riesling Feinherb                                                      |     1
+ Malbec                                                                 |   492
+ Rossese Bianco                                                         |     1
+ Cannonau                                                               |    18
+ Geurztraminer                                                          |     1
+ Freisa                                                                 |    15
+ Cabernet Malbec                                                        |     1
+ Vignoles                                                               |   141
+ Pinot Noir Rose                                                        |     2
+ Petite Arvine                                                          |     1
+ Pinot Noir Precoce                                                     |     1
+ St. Vincent                                                            |    18
+ Villard Noir                                                           |     1
+ Cabernet Sauvignon Shiraz Merlot                                       |     2
+ Vermemtino                                                             |     1
+ Chardonnay Chardonnay                                                  |     1
+ Cabernet Sauvignon                                                     |  2076
+ Grenache Blend                                                         |     2
+ Cayuga White                                                           |    18
+ Furmint                                                                |     3
+ Giesenheim                                                             |     1
+ Rkatsiteli                                                             |     6
+ Perricone                                                              |     1
+ Cornalin                                                               |     1
+ Muscat Blanc a Petits Grains                                           |     1
+ Carmenere Syrah Cabernet Sauvignon                                     |     1
+ Terra                                                                  |     1
+ Petite Sirah Syrah Petite Sirah Petit Verdot Cabernet Sauvignon Merlot |     1
+ Ste-Croix                                                              |     1
+ Red Wine with Chocolate Infusion                                       |     1
+ Moscadello                                                             |     7
+ Arneis blend                                                           |     1
+ Muscat                                                                 |   316
+ Southern Rhone White Blend                                             |     3
+ Seyval Blanc                                                           |   146
+ Southern Rhone Blend - Syrah/Cinsault/Mourvedre/Grenache               |     1
+ Plum                                                                   |     2
+ merlot                                                                 |     6
+ Bordeaux Blend                                                         |    31
+ Chandon                                                                |     1
+ Cabernet Sauvignon Carmenere                                           |     1
+ Muller-Thurgau                                                         |    14
+ Cabernet Merlot Blend                                                  |     1
+ Barbera D'Alba                                                         |     1
+ Ruby Cabernet                                                          |     5
+ Grasparossa                                                            |     1
+ Leon Millet                                                            |     3
+ Chancellor                                                             |    13
+ Cabernet Cabernet Sauvignon                                            |     1
+ Primivito                                                              |     2
+ Rondinella Bianca Traminer Kerner Incrocio Manzoni                     |     1
+ Vitovska                                                               |     2
+ Cabernet Syrah                                                         |     1
+ Valvin Muscat                                                          |     6
+ Chardonnay (Fiano)                                                     |     1
+ Riesling blend                                                         |     1
+ SŽmillon-Sauvignon Blanc Blend                                         |     3
+ Riesling Pinot Meunier                                                 |     1
+ Ste. Croix                                                             |     1
+ Grignolino                                                             |    21
+ Grillo Chardonnay                                                      |     1
+ Prairie star                                                           |     2
+ Corvinone                                                              |     1
+ Ugni Blanc                                                             |     1
+ Red Muscadine                                                          |     1
+ Symphony                                                               |    17
+ Brut                                                                   |     2
+ Concord Grapes                                                         |     1
+ sauvignon Blanc                                                        |     3
+ Malvasia Istriana                                                      |     3
+ Gewurztraminer                                                         |   514
+ Rebula                                                                 |     1
+ Kir-Yianni                                                             |     1
+ Cortese                                                                |    68
+ Sirah Cinsault Grenache                                                |     1
+ Vidal Blanc                                                            |   195
+ Stuben                                                                 |     1
+ Gruner Veltliner                                                       |    37
+ Chianti                                                                |     7
+ Green Apple Cassis                                                     |     1
+ Moscato                                                                |   166
+ Malbec Cabernet Sauvignon                                              |     1
+ Muscadet                                                               |     9
+ Merlot Syrah Zinfandel Petite Sirah                                    |     1
+ Merlot                                                                 |  1541
+ Tokay                                                                  |     1
+ Loureiro                                                               |     5
+ Petite Verdot                                                          |     2
+ Mouvedre                                                               |     1
+ Johannisberg Riesling                                                  |     4
+ Zibibbo                                                                |    10
+ Blanc                                                                  |     1
+ Tempranillo Grenache                                                   |     1
+ Druella                                                                |     1
+ Croatina                                                               |     3
+ Albarossa                                                              |     5
+ Frontenac Blanc                                                        |     2
+ Pinot noir                                                             |     8
+ Muscat Reale                                                           |     1
+ Albarino                                                               |    94
+ Cinsaut                                                                |     1
+ Tinto De Toro (Tempranillo)                                            |     1
+ Intreccio                                                              |     1
+ Alicante Bouschet                                                      |    10
+ Almond                                                                 |     1
+ Muscat Gris                                                            |     1
+ Picolit                                                                |    10
+ Grillo                                                                 |    44
+ Fiano                                                                  |    54
+ Noiret                                                                 |    21
+ Dolcetto                                                               |   150
+ Marzemina                                                              |     1
+ Southern Rhone Red Blend                                               |     2
+ Torbato                                                                |     4
+ Carlos & Ison Muscadines                                               |     1
+ Lacrima                                                                |    15
+ Sauvignon Blanc Assyrtiko                                              |     1
+ Labrusca                                                               |     1
+ Black Spanish                                                          |     2
+ Chelois                                                                |     1
+ Sauzao                                                                 |     1
+ 2                                                                      |     1
+ Rousanne                                                               |     4
+ Godello                                                                |     4
+ Shiraz Cabernet Sauvignon                                              |     1
+ Carmenere                                                              |     1
+ Lugana                                                                 |     1
+ Edelzwicker Blend                                                      |     2
+ Zinfandel Syrah Petite Sirah                                           |     1
+ Merlot Cabernet Aglianico                                              |     1
+ Savignon Blanc                                                         |     1
+ Frontenac red                                                          |     1
+ Fredonia                                                               |     9
+ Fume Blanc                                                             |     3
+ Arctic Riesling                                                        |     2
+ Schönburger                                                            |     4
+ Petite Syrah                                                           |     5
+ Petit Manseng & Gros Manseng                                           |     1
+ Tinta Franchesca                                                       |     1
+ Aglianico                                                              |   115
+ Petit Verdot                                                           |   106
+ Portuguese Red Blend                                                   |     1
+ Carignan Syrah Grenache                                                |     1
+ Cabernet Sauv                                                          |     2
+ Vranac                                                                 |     1
+ Wurtzer                                                                |     2
+ Valpolicella                                                           |     9
+ Vespaiolo                                                              |     8
+ Freedonia                                                              |     1
+ Garnacha                                                               |    36
+ Sangiovese Blend                                                       |     2
+ Viura                                                                  |     1
+ Trepat                                                                 |     1
+ Palomino Pedro Ximenez                                                 |     1
+ Zinfindel                                                              |     1
+ Torrontes                                                              |    33
+ Corot noir                                                             |     1
+ Red Bordeaux                                                           |     1
+ Marsanne                                                               |    26
+ Moscato Fior d'Arancio                                                 |     1
+ Kekfrankos Kadarka                                                     |     1
+ Sherry                                                                 |     2
+ St. Laurent                                                            |     2
+ Petite Milo                                                            |     1
+ Zinfandel Carignane Petite Sirah                                       |     1
+ Rose                                                                   |    14
+ Pear                                                                   |     1
+ Weissburgunder                                                         |     1
+ White Muscat                                                           |     5
+ Frontenac                                                              |   121
+ Cabernet Sauvignon and Merlot                                          |     1
+ Nosiola                                                                |     4
+ Ribolla                                                                |     3
+ Pink Catawba                                                           |     4
+ Norton                                                                 |   108
+ Rioja                                                                  |     7
+ Barberra                                                               |     7
+ Sauvignon                                                              |     1
+ Chardonnay Sauvignon Blanc Viognier Pinot Blanc Muscat                 |     1
+ Organic Nero D'Avola                                                   |     1
+ Prosecco                                                               |    91
+ Maceratino                                                             |     1
+ Tinto Fino                                                             |     2
+ SuperTuscan Blend                                                      |     1
+ Muscato                                                                |    12
+ Champagne                                                              |     5
+ Swensen                                                                |     1
+ Chardonnay Vidal                                                       |     1
+ Pelaverga                                                              |     2
+ Corvina Rondinella Molinara                                            |     1
+ Riesling Spaltese                                                      |     1
+ Cabernet Franc Merlot Petit Verdot Malbec                              |     1
+ Muscadine                                                              |   209
+ Macabeo                                                                |     1
+ Nebbiolo                                                               |   578
+ Black Troia                                                            |     1
+ Spago Nero                                                             |     1
+ Carignane                                                              |     7
+ Verduzzo Friulano                                                      |     4
+ Claret                                                                 |     1
+ Syrah Grenache                                                         |     2
+ Vinho Verde                                                            |     7
+ Scuppernong                                                            |    15
+ Tempranillo                                                            |   327
+ Bellone                                                                |     1
+ Noble                                                                  |    18
+ Syrah                                                                  |  1319
+ Malbec merlot                                                          |     1
+ Malbec Bonarda Syrah                                                   |     1
+ Saperavi                                                               |     2
+ Spätburgunder                                                          |     1
+ X                                                                      |     1
+ Muscat of Alxeandria                                                   |     1
+ Sauvignon Musque                                                       |     1
+ Favorita                                                               |    10
+ Spiced Mead                                                            |     1
+ 3                                                                      |     1
+ Muscat of Alessandria (Zibibbo)                                        |     4
+ Albion Baco                                                            |     1
+ Merlot Cabernet Sauvignon Malbec                                       |     1
+ Brunello                                                               |     1
+ Limnio                                                                 |     1
+ Marechal Foch                                                          |    85
+ Touriga Franca                                                         |     2
+ Red Bordeaux Blend                                                     |    95
+ Nero D'avola                                                           |    13
+ Encruzado                                                              |     5
+ Rondo                                                                  |    23
+ Lemberger                                                              |    25
+ Pedro Ximenez                                                          |     2
+ Veltliner                                                              |     1
+ Petit Sirah                                                            |     2
+ Picpoul                                                                |     6
+ Tokaji                                                                 |     1
+ St Pepin                                                               |     1
+ Zibibbo (Moscato d'Alessandria)                                        |     1
+ Optima                                                                 |     4
+ Corot Noir                                                             |     5
+ Trebbiano di Lugana                                                    |     2
+ Palomino                                                               |     7
+ Nero d'Avola                                                           |    74
+ Niagra                                                                 |     1
+ Norton Cynthiana                                                       |     2
+ Espder                                                                 |     1
+ Saint Croix                                                            |     3
+ Pinot Noir and Chardonnay                                              |     1
+ Moscato Bianco                                                         |     8
+ Chardonnay Marsanne Roussanne                                          |     1
+ La Crescent blend                                                      |     1
+ Melon de Bourgogne                                                     |     1
+ Piedirosso                                                             |     7
+ Pinot gris                                                             |     2
+ Cghbvf                                                                 |     1
+ Prosecco (Glera)                                                       |     4
+ Biancame                                                               |     1
+ White blend                                                            |    66
+ Souzao                                                                 |     4
+ Sylvaner                                                               |    10
+ Cabernet  Franc                                                        |     1
+ Gewurztraminer Sauvignon Blanc                                         |     1
+ Unknown                                                                |     1
+ Baco Noir Reserve                                                      |     1
+ Napoleon                                                               |     1
+ Baga                                                                   |     2
+ Montepulciano                                                          |   193
+ Sangiovese Cabernet Sauvignon  Merlot                                  |     1
+ Romorantin                                                             |     1
+ White Concord                                                          |     1
+ Chardinnay                                                             |     1
+ Baco Gamay                                                             |     1
+ Merlot Cabernet Sauvignon Syrah Zinfandel                              |     1
+ Zweigelt. Merlot                                                       |     1
+ Marzemino                                                              |     7
+ Cynthiana/Norton                                                       |     1
+ Marquette Shiraz                                                       |     1
+ Sangiovese                                                             |   844
+ Nebbiolo blend                                                         |     1
+ Ortega                                                                 |    38
+ Black Pallagrello                                                      |     1
+ Ansonica                                                               |     2
+ Antao Vaz                                                              |     1
+ Catawba                                                                |   178
+ Cuvee Blanc                                                            |     1
+ Tocai Friulano                                                         |    10
+ White Pallagrello                                                      |     1
+ Red Moscato                                                            |     2
+ Rosato                                                                 |     1
+ Refosco dal Peduncolo                                                  |    16
+ dolcetto                                                               |     1
+ Bonarda                                                                |    14
+ Grenache Cabernet Sauvignon Shiraz Pinot Noir                          |     1
+ Trousseau                                                              |     1
+ Chenin                                                                 |     2
+ Frontenac Noir and Frontenac Gris                                      |     1
+ Nuragus                                                                |     4
+ Riesling Tollinger                                                     |     1
+ Southern Rhone Blend                                                   |     2
+ Viosinho                                                               |     1
+ Black Bombino                                                          |     1
+ Leon Millot                                                            |    20
+ Blanc Du Bois                                                          |    29
+ Chardonnay                                                             |  4145
+ Assemblage Rouge                                                       |     1
+ Verdelet                                                               |     1
+ Chardonnay blend                                                       |     2
+ Doreen                                                                 |     2
+ Merlot Syrah Cabernet Franc                                            |     1
+ Cabernet Sauvignon Merlot                                              |     5
+ Inzolia                                                                |     7
+ Auxerrios                                                              |     1
+ Raboso Veronese                                                        |     1
+ Petite Amie                                                            |     2
+ Grüner Veltliner                                                       |     5
+ Barbaresco                                                             |     2
+ Cabernet                                                               |    18
+ Pignoletto                                                             |     6
+ Tocai                                                                  |     2
+ Tinta Amarela                                                          |     1
+ Sauvignon Blanc                                                        |  1400
+ Blackberry                                                             |     2
+ Ederena                                                                |     1
+ Rivaner                                                                |     1
+ Nero d'Avola blend                                                     |     1
+ torrontes                                                              |     1
+ Siegfried blend                                                        |     1
+ Sauvignon Blanc Viognier                                               |     1
+ Madeleine Sylvaner                                                     |     1
+ Muscat sec                                                             |     1
+ Ravat Vignoles                                                         |     1
+ vermentino                                                             |     1
+ White Malvasia                                                         |     2
+ Alcamo                                                                 |     1
+ Schioppettino                                                          |     4
+ Pinot Bianco                                                           |    15
+ Bergamais                                                              |     1
+ Seyval Noir                                                            |     3
+ Nero d' Avola blend                                                    |     2
+ Nero D'Avola                                                           |    13
+ Tocai Fruilano                                                         |     2
+ Grechetto                                                              |     9
+ Rosso                                                                  |     1
+ Oraniensteiner                                                         |     2
+ Aragones                                                               |     2
+ Dornfelder                                                             |    12
+ Tibouren                                                               |     1
+ Nebbiolo (Lampia)                                                      |     1
+ Rieslng                                                                |     1
+ Coda Di Volpe                                                          |     1
+ Semillion                                                              |     3
+ Babera                                                                 |     1
+ Albariño                                                               |     3
+ Muscat of Alexandria                                                   |     1
+ Blueberry                                                              |     1
+ Rooibos                                                                |     1
+ Albana                                                                 |     9
+ Pais                                                                   |     1
+ Johannisburg Riesling                                                  |     1
+ Montepulciano D'Abruzzo                                                |     2
+ Verdicchio dei Castelli de Jesi                                        |     1
+ Shiraz cabernet                                                        |     1
+ Petit Manseng                                                          |    30
+ Madeleine Angevine                                                     |    38
+ Nescetta                                                               |     1
+ Touriga Nacional                                                       |    29
+ Kerner                                                                 |    18
+ Pinot Noir Cuvee                                                       |     2
+ Blanc Du Bosque                                                        |     1
+ Syrah Cabernet Sauvignon Petit Verdot                                  |     1
+ Chardonnay Pinot Noir pinot meunier                                    |     1
+ French Columbard                                                       |     2
+ Chambourcin                                                            |   310
+ Red Rhone Blend                                                        |     6
+ Cabernet Sauvignon Merlot Syrah Zinfandel                              |     1
+ Terret Noir                                                            |     1
+ Bourgogne                                                              |     1
+ Verduzzo Dorato                                                        |     2
+ Sauvignon blanc                                                        |     5
+ Lacrosse                                                               |     2
+ Durella                                                                |     1
+ Bobal                                                                  |     1
+ Pink Moscato                                                           |     2
+ Malbec Merlot                                                          |     1
+ Cabernet Sauvignon Merlot Cabernet Franc                               |     2
+ Habitant Blanc                                                         |     1
+ Seyval                                                                 |    48
+ Touriga Nacional Aragonez                                              |     1
+ Roussanne                                                              |   100
+ Gruner Veltiner                                                        |     1
+ Syral                                                                  |     1
+ Seyval Aurore                                                          |     1
+ Charbono                                                               |    11
+ Alfrocheiro                                                            |     1
+ Carmine                                                                |     2
+ Tinta del Pais                                                         |     2
+ Port                                                                   |     1
+ Garnacha Blanca                                                        |     1
+ Blend                                                                  |    52
+ Pinot noir rose                                                        |     1
+ Champagne Brut                                                         |     2
+ Pošip                                                                  |     1
+ White Pinot Noir                                                       |     1
+ Négrette                                                               |     1
+ Catarratto Lucido                                                      |     1
+ grenache                                                               |     1
+ port                                                                   |     1
+ Grecanico Inzolia Chardonnay                                           |     1
+ nebbiolo                                                               |     1
+ Ehrenfelser                                                            |    17
+ Blackberry Mead                                                        |     1
+ Syrah Zinfandel Petite Sirah                                           |     1
+ Primitivo                                                              |   141
+ Rhone Blend                                                            |     5
+ Sousao                                                                 |     1
+ Canaiolo                                                               |     3
+ Crémant d'Alsace                                                       |     1
+ Falanghina                                                             |    42
+ Radisson                                                               |     1
+ Uve Bianche                                                            |     2
+ California Champagne                                                   |     1
+ Pinot                                                                  |     4
+ White Bombino                                                          |     3
+ Ottavianello                                                           |     1
+ Merlot Cabernet Franc Cabernet Sauvignon Petit Verdot                  |     1
+ Malbec Corvina                                                         |     1
+ Muscat Blanc                                                           |    13
+ Riesling Traminer                                                      |     1
+ Elvira                                                                 |     3
+ Mourvedre                                                              |   105
+ Diamond                                                                |    22
+ Portugese Red Blend                                                    |     1
+ Famoso                                                                 |     1
+ Grenache Noir                                                          |     2
+ Liebfraumilch                                                          |     2
+ Malvasia Bianca                                                        |    12
+ Muscat Canelli                                                         |    54
+ Pallagrello Nero                                                       |     1
+ Albana di Romagna                                                      |     2
+ Il Greco                                                               |     1
+ Ribolla Gialla                                                         |    27
+ Rotberger                                                              |     1
+ Picpoul Blanc                                                          |     3
+ Shiraz Blend                                                           |     3
+ Merlot Cabernet Sauvignon Cabernet Franc                               |     4
+ Aleksandrouli Mujuretuli                                               |     1
+ Vidal Riesling                                                         |     3
+ Jacquere                                                               |     2
+ Sparkling Rose 60% Pinot Nero and 40% Chardonnay                       |     1
+ Corvino                                                                |     1
+ Insolia                                                                |     8
+ Pignolo                                                                |     4
+ White Wine                                                             |     1
+ Rosato Di Palmina                                                      |     1
+ Aragonez                                                               |     4
+ Vermentino blend                                                       |     1
+ Zinfandel Cabernet Sauvignon                                           |     1
+ Syrah blend                                                            |     1
+ Cabernet Franc Syrah                                                   |     1
+ Bordeaux blend                                                         |     2
+ Aurore Muscat                                                          |     1
+ Malvasia                                                               |    33
+ Muscat Ottonel                                                         |     9
+ Moscato Blanco                                                         |     1
+ Rougeon                                                                |     4
+ Verdicchio                                                             |    71
+ Nero d’Avola                                                           |     1
+ Arinto                                                                 |     6
+ Greco                                                                  |    26
+ Vidiannó                                                               |     1
+ Semillon                                                               |    97
+ N/A                                                                    |     2
+ Tempranilla                                                            |     1
+ Sangiovese Cabernet Sauvignon Merlot                                   |     1
+ Muller Thurgau                                                         |    38
+ Rose Blend                                                             |    35
+ Xarello                                                                |     2
+ Northern Carolina Muscadines                                           |     1
+ Cococciola                                                             |     8
+ Regent                                                                 |     8
+ Greco di Tufo                                                          |     1
+ Sangiovese Cabernet Sauvignon Blend                                    |     1
+ Pinot Noir Pinot Meunier chardonnay                                    |     1
+ Carricante                                                             |     8
+ Aligoté                                                                |     2
+ viognier                                                               |     1
+ Sorbara Lambrusco                                                      |     1
+ Garnatxa Cabernet                                                      |     2
+ Malbec blend                                                           |     1
+ Riesling Gewurztraminer                                                |     3
+ Vermouth                                                               |     2
+ Chardonnel                                                             |     2
+ Fruilano                                                               |     1
+ Zinfandel Blend                                                        |     3
+ Nascetta                                                               |     5
+ GSM                                                                    |     1
+ Phoenix                                                                |     8
+ Aragonez Siria                                                         |     1
+ Perelli                                                                |     1
+ Vandal Cliché                                                          |     3
+ Frontenac Rouge                                                        |     1
+ Cabernet Franc Reserve                                                 |     1
+ Traminette                                                             |   219
+ Malvasia Puntinata                                                     |     1
+ Pinot Noir Gamay                                                       |     1
+ Mourvedre Syrah Grenache                                               |     1
+ Viognier                                                               |   782
+ Cabernet Foch                                                          |     1
+ Gewutzraminer                                                          |     1
+ Gruner Veltliner Riesling Rotgipfler Zierfandler                       |     1
+ Ciliegiolo                                                             |     2
+ Muscat Giallo                                                          |     3
+ Aurora                                                                 |     3
+ Kretikos                                                               |     1
+ Obeidy                                                                 |     1
+ Carignano                                                              |     1
+ Lenoir                                                                 |    10
+ RoseBlend                                                              |     2
+ Riesling Renano                                                        |     1
+ Monastrell Tempranillo Cabernet Sauvignon                              |     1
+ Proprietary Blend with Almond Essence                                  |     1
+ Syrah Grenache Carignan Mourvedre                                      |     1
+ Vidal and Vignoles                                                     |     1
+ Panonia                                                                |     1
+ Vino Tinto                                                             |     1
+ Franconia                                                              |     1
+ Muscat ottonel                                                         |     4
+ Vergennes                                                              |     1
+ Tinta Cao                                                              |     2
+ White Loin-De-L'oeil                                                   |     1
+ Fernao Pires                                                           |     3
+ Rhine Riesling                                                         |     1
+ Triomphe                                                               |     1
+ Caramenere                                                             |     1
+ Vespolina                                                              |     1
+ Bical                                                                  |     2
+ Ferdinand                                                              |     1
+ Avgoustiatis Agiorgitiko                                               |     1
+ Marsigliana Nera                                                       |     1
+ Sangiovese Merlot                                                      |     1
+ Glera                                                                  |   195
+ St. Croix                                                              |    40
+ Vermentino Nero                                                        |     1
+ Coastal James                                                          |     1
+ Garnacha and Tempranillo                                               |     1
+ Cesanese                                                               |     3
+ Moscofilero                                                            |     1
+ Cabenet Franc                                                          |     1
+ Moscato Giallo                                                         |     8
+ Geneva Red                                                             |     1
+ Tocia Friulano                                                         |     1
+ Stueben                                                                |     2
+ Chardonnay Pinot Noir                                                  |     3
+ Ruche                                                                  |     1
+ Bombino Nero                                                           |     2
+ Riesling GG                                                            |     1
+ Garnacha Rosa                                                          |     1
+ Premetta                                                               |     1
+ Moschofilero                                                           |     3
+ Sauvignon Gris                                                         |     3
+ Treixadura                                                             |     1
+ Assyrtiko                                                              |     1
+ Red Muscat                                                             |     1
+ Pinot Noir Précoce                                                     |     7
+ Rex Retagliado Bianco                                                  |     1
+ Cabernet Sauvignon Malbec                                              |     1
+ Seyve Villard                                                          |     1
+ Petite Sirah                                                           |   241
+ Refosco dal Peduncolo Rosso                                            |     2
+ Terrano                                                                |     1
+ Proprietary Blend                                                      |    18
+ Cuvee Noir                                                             |     1
+ Cynthiana                                                              |    15
+ Blanc De Bois                                                          |     4
+ James Muscadines                                                       |     1
+ Landot Noir                                                            |     2
+ Blanc duBois                                                           |     4
+ Pinot Noir and Pinot Meunier                                           |     1
+ Vidal                                                                  |   179
+ Rolle Semillon                                                         |     1
+ Manzoni Bianco                                                         |     3
+ Champagne Blend                                                        |    21
+ Chenin Blanc                                                           |   142
+ Steuben                                                                |    39
+ Tannat                                                                 |    26
+ Sangrantino                                                            |     3
+ Uve da Tavola                                                          |     1
+ Red bouchet                                                            |     1
+ Baco Noir                                                              |    30
+ Arneis                                                                 |    81
+ Grenache Mourvedre Cinsault                                            |     1
+ La Crosse                                                              |    21
+ Vermentino                                                             |   116
+ Durello                                                                |     1
+ Colombard                                                              |    10
+ Grenache                                                               |   250
+ Frappato                                                               |     5
+ Madeira                                                                |     1
+ Syrah Rose                                                             |     1
+                                                                        |  4560
+ Rkatsitelli                                                            |     1
+ Chardonnay Musque                                                      |     9
+ Chardonnay                                                             |     1
+ Mauzac                                                                 |     1
+ Chasselas                                                              |     2
+ Malvasia Nera                                                          |     1
+ Muscat Caneli                                                          |     1
+ Merlot Cabernet Franc Cabernet Sauvignon                               |     1
+ St. Emilion                                                            |     1
+ Colombard Ugni Blanc                                                   |     1
+ Corvina blend                                                          |     3
+ cabernet Sauvignon                                                     |     1
+ Prairie Star                                                           |     6
+ Lambrusco Sorbara                                                      |     1
+ Merlot Cabernet Sauvignon Petit Verdot                                 |     1
+ Ste Croix                                                              |     1
+ Lancellotta                                                            |     1
+ Duoro                                                                  |     1
+ Garnaxta Negra                                                         |     1
+ Kekfrankos                                                             |     2
+ pinot Gris                                                             |     1
+ Rosette                                                                |     3
+ Graciano                                                               |     4
+ Riesling Pinot Grigio                                                  |     1
+ Blaufrankisch                                                          |     7
+ Rare Rose Blend                                                        |     1
+ Chancellor Noir                                                        |     1
+ Kokour                                                                 |     1
+ Scheurebe                                                              |     3
+ Tintilia                                                               |     1
+ Silvaner                                                               |     5
+ Louise Swenson                                                         |     1
+ Chambourcin blend                                                      |     2
+ Concord blend                                                          |     3
+ Trebbiano                                                              |   104
+ Counoise                                                               |     6
+ Delaware                                                               |    12
+ Tai Bianco                                                             |     1
+ Geisenheim 318                                                         |     1
+ Gewurztraminer Riesling                                                |     2
+ La Cresent                                                             |     1
+ Cherry Honey Wine                                                      |     1
+ Monepulciano                                                           |     1
+ Pinot Rose                                                             |     1
+ Toscana                                                                |     1
+ Sagrantino                                                             |    20
+ Cinsault                                                               |    17
+ Viognier Grenache Blanc  Roussanne                                     |     1
+ Frontenac gris                                                         |     2
+ Moscatel                                                               |     4
+ Red  Blend                                                             |     3
+ Aligote’                                                               |     2
+ White Rhone Blend                                                      |     2
+ Pugnitello                                                             |     1
+ Verdeca                                                                |     5
+ Black Muscat                                                           |     5
+ Pecorino                                                               |    49
+ Pappilon Red                                                           |     1
+(1054 rows)
+

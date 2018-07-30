@@ -38,3 +38,7 @@ rails generate migration add_area_to_wineries area
 rails g migration rename_type_to_wine_type
 rails generate migration add_vintage_to_wine vintage
 rails generate migration add_region_to_wine_from_apis region
+
+rails g resource Grape name
+rails g migration RemoveVarietalFromWine varietal
+rails g migration add_grape_to_wine grape_id:integer

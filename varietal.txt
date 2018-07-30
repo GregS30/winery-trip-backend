@@ -1,0 +1,122 @@
+                  varietal                  | count 
+--------------------------------------------+-------
+                                            |  4560
+ Aglianico                                  |   115
+ Albarino                                   |    94
+ Arneis                                     |    81
+ Bacchus                                    |    98
+ Barbera                                    |   417
+ Blend                                      |    52
+ Bordeaux Blend                             |    31
+ Cabernet Franc                             |   598
+ Cabernet Sauvignon                         |  2076
+ Cabernet Sauvignon, Cabernet Franc         |    34
+ Cabernet Sauvignon, Cabernet Franc, Merlot |    37
+ Cabernet Sauvignon, Merlot                 |   126
+ Cabernet Sauvignon, Merlot, Cabernet Franc |    83
+ Cabernet Sauvignon, Syrah                  |    36
+ Carmenere                                  |    55
+ Catawba                                    |   178
+ Cayuga                                     |   112
+ Chambourcin                                |   310
+ Chardonel                                  |   107
+ Chardonnay                                 |  4145
+ Chardonnay, Pinot Noir                     |   107
+ Chardonnay, Pinot Noir, Pinot Meunier      |    43
+ Chardonnay, Viognier                       |    32
+ Chenin Blanc                               |   142
+ Concord                                    |   206
+ Cortese                                    |    68
+ Corvina, Rondinella, Molinara              |    67
+ Dolcetto                                   |   150
+ Edelweiss                                  |    51
+ Falanghina                                 |    42
+ Fiano                                      |    54
+ Frontenac                                  |   121
+ Frontenac Gris                             |    50
+ Gamay                                      |    96
+ Gamay Noir                                 |    32
+ Garganega                                  |    84
+ Garganega, Trebbiano                       |    41
+ Garnacha                                   |    36
+ Gewurztraminer                             |   514
+ Gewürztraminer                             |    62
+ Glera                                      |   195
+ Grenache                                   |   250
+ Grenache Blanc                             |    45
+ Grenache, Syrah, Mourvedre                 |    43
+ Grillo                                     |    44
+ Gruner Veltliner                           |    37
+ La Crescent                                |    38
+ Lagrein                                    |    36
+ Madeleine Angevine                         |    38
+ Malbec                                     |   492
+ Malvasia                                   |    33
+ Marechal Foch                              |    85
+ Marquette                                  |    46
+ Merlot                                     |  1541
+ Merlot, Cabernet Franc                     |    38
+ Merlot, Cabernet Franc, Cabernet Sauvignon |    33
+ Merlot, Cabernet Sauvignon                 |    83
+ Merlot, Cabernet Sauvignon, Cabernet Franc |    42
+ Montepulciano                              |   193
+ Moscato                                    |   166
+ Mourvedre                                  |   105
+ Muller Thurgau                             |    38
+ Muscadine                                  |   209
+ Muscat                                     |   316
+ Muscat Canelli                             |    54
+ Nebbiolo                                   |   578
+ Negroamaro                                 |    89
+ Nero d'Avola                               |    74
+ Niagara                                    |   179
+ Norton                                     |   108
+ Orange Muscat                              |    33
+ Ortega                                     |    38
+ Pecorino                                   |    49
+ Petit Verdot                               |   106
+ Petite Sirah                               |   241
+ Pinot Blanc                                |   181
+ Pinot Grigio                               |   685
+ Pinot Gris                                 |   670
+ Pinot Noir                                 |  2323
+ Pinot Noir, Chardonnay                     |   112
+ Primitivo                                  |   141
+ Prosecco                                   |    91
+ Red Blend                                  |   231
+ Red Bordeaux Blend                         |    95
+ Red blend                                  |    66
+ Riesling                                   |  1591
+ Rose Blend                                 |    35
+ Roussanne                                  |   100
+ Sangiovese                                 |   844
+ Sangiovese Grosso                          |    40
+ Sangiovese, Cabernet Sauvignon             |    50
+ Sangiovese, Merlot                         |    76
+ Sauvignon Blanc                            |  1400
+ Sauvignon Blanc, Semillon                  |    61
+ Semillon                                   |    97
+ Semillon, Sauvignon Blanc                  |    36
+ Seyval                                     |    48
+ Seyval Blanc                               |   146
+ Shiraz                                     |   202
+ St. Croix                                  |    40
+ Steuben                                    |    39
+ Syrah                                      |  1319
+ Syrah, Grenache                            |    37
+ Tempranillo                                |   327
+ Torrontes                                  |    33
+ Traminette                                 |   219
+ Trebbiano                                  |   104
+ Trebbiano, Malvasia                        |    35
+ Verdicchio                                 |    71
+ Vermentino                                 |   116
+ Vidal                                      |   179
+ Vidal Blanc                                |   195
+ Vignoles                                   |   141
+ Viognier                                   |   782
+ White Blend                                |    93
+ White blend                                |    66
+ Zinfandel                                  |   990
+(118 rows)
+
