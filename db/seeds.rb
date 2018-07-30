@@ -1,5 +1,6 @@
 require 'rest-client'
 require 'json'
+require 'pry'
 
 # javascript fetch
 # fetch('https://quiniwine.com/api/pub/wineKeywordSearch/white/0/100',
@@ -49,11 +50,6 @@ def save_wines(wines, color)
   end
 end
 
-def get_region(country, province, area)
-
-end
-
-
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # un-comment this section to fetch wines from api
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -82,122 +78,103 @@ end
 
 # \copy wine_from_apis to 'wine_from_apis.csv' DELIMITER ',' CSV HEADER;
 
+def get_grape(varietal, wine_type)
+
+  top_grapes = [
+  'Barbera',  'Cabernet Franc', 'Cabernet Sauvignon', 'Chambourcin', 'Chardonnay', 'Chenin Blanc', 'Concord', 'Frontenac', 'Gamay', 'Gewurztraminer', 'Grenache', 'Gruner Veltliner', 'Malbec', 'Merlot', 'Montepulciano', 'Mourvedre', 'Muscat', 'Nebbiolo', 'Pinot Blanc', 'Pinot Grigio', 'Pinot Gris', 'Pinot Noir', 'Prosecco', 'Riesling', 'Sangiovese', 'Sauvignon Blanc', 'Shiraz', 'Tempranillo', 'Trebbiano', 'Vermentino', 'Viognier', 'Zinfandel'
+  ]
+
+# use wine_type (white, red, rose) if varietal is '' or is not a top grape
+  return top_grapes.include?(varietal) ? varietal : wine_type
+end
+
 def get_region(winery)
 
   country = winery.country.rstrip
-  winery.area = winery.area ? winery.area.rstrip : ''
-  winery.province = winery.province ? winery.province.rstrip : ''
+  area = winery.area ? winery.area.rstrip : ''
+  province = winery.province ? winery.province.rstrip : ''
 
   case country
-  when 'Americas'
-    region = 'Americas'
 
-  when 'United States'
-    if winery.area != '' && "Carneros, Napa Valle Napa / Sonoma Napa County Napa Valey Napa Valley & Sonoma Napa, Sonoma, Monter Oakville Rutherford, Napa Val Saint Helena St. Helena Stags Leap District Yountville, Napa Val Dry Creek Valley Edna Valley El Dorado Fair Play Howell Mountain Lodi Monterey County".include?(winery.area)
-      region = 'Napa Valley'
-    elsif winery.province != '' && "Idaho Michigan Oregon Pennsylvania Virginia Washington".include?(winery.province)
-      region = winery.province
-    elsif winery.area != '' && "Cayuga Lake Cayuga Lake & Finger Finger Lakes Finger Lakes & Senec Finger Lakes Distric Finger Lakes, Seneca Hudson River Region Lake Erie Niagara Escarpment Seneca Lake Seneca Lake & Finger Seneca Lakes".include?(winery.area)
-      region = 'Finger Lakes'
-    elsif winery.area != '' && "Long Island North Fork of Long I The Hamptons, Long I".include?(winery.area)
-      region = 'North Fork'
-    elsif winery.area != '' && "Alexander Valley Alexander Valley, Oa Anderson Valley Russian River Valley Russian River, Calif Somoma County Sonoma Coast Sonoma County, Alexa Sonoma County, Calif Sonoma Mountain Sonoma Mtn Sonoma Sonoma County Sonoma Valley Sonoma valley Sonoma Valley".include?(winery.area)
-      region = 'Sonoma'
-    else
-      region = 'United States'
-    end
+    when 'Americas' then region = 'Americas'
+
+    when 'United States'
+      if area != '' && "Alexander Valley Alexander Valley, Anderson Valley Russian River Valley Russian River, Calif Somoma County Sonoma Coast Sonoma County, Alexa Sonoma County, Calif Sonoma Mountain Sonoma Mtn Sonoma Sonoma County Sonoma Valley Sonoma valley Sonoma Valley".include?(area)
+        region = 'Sonoma'
+      elsif area != '' && "Carneros, Napa Valley Napa / Sonoma Napa County Napa Valey Napa Valley & Sonoma Napa, Oakville Rutherford, Napa Val Saint Helena St. Helena Stags Leap District Yountville, Napa Valley".include?(area)
+        region = 'Napa Valley'
+      elsif (province == 'California' || area == 'California')
+        region = 'California'
+      elsif area != '' && "Cayuga Lake Cayuga Lake & Finger Finger Lakes Finger Lakes & Seneca Lake Finger Lakes District Finger Lakes, Seneca Lake Hudson River Region Lake Erie Niagara Escarpment Seneca Lake Seneca Lake & Finger Lake Seneca Lakes".include?(area)
+        region = 'Finger Lakes'
+      elsif area != '' && "North Fork of Long Island &The Hamptons, Long Island Long Island North Fork of Long Island The Hamptons, Long Island".include?(area)
+        region = 'North Fork'
+      elsif province == 'New York'
+        region = 'New York'
+      elsif province != '' && province.length > 4 && "Idaho Michigan Oregon Pennsylvania Virginia Washington".include?(province)
+        region = province
+      else
+        region = 'United States'
+      end
 
     when 'Italy'
-      region = 'Italy'
-      if winery.area != '' && "Asti Casaret Langhe Langhe Piedmont Piedmonte Piedmonte Piemonte".include?(winery.area)
+      if area != '' && "Asti Casaret Langhe Langhe Piedmont Piedmonte Piedmonte Piemonte".include?(area)
         region = "Piedmont"
-      elsif winery.area != '' && "Tuscany Umbria".include?(winery.area)
+      elsif area != '' && "Tuscany Umbria".include?(area)
         region = "Tuscany"
-      elsif winery.area != '' && "Veneto".include?(winery.area)
+      elsif area != '' && "Veneto".include?(area)
         region = "Veneto"
       else
         region = 'Italy'
       end
 
-    when 'Canada'
-      region = 'Canada'
+    when 'Canada' then region = 'Canada'
     when 'France'
-      region = 'France'
-      if winery.area != '' && "Bordeaux Haut-Medoc Hermitage Medoc Pessac-Leognan Pomerol Provence Saint Emilion Saint-Emilion Saint-Julien St. Julien Graves Medoc Pauillac".include?(winery.area)
+      if area != '' && "Bordeaux Haut-Medoc Hermitage Medoc Pessac-Leognan Pomerol Provence Saint Emilion Saint-Emilion Saint-Julien St. Julien Graves Medoc Pauillac Bordeaux Superieur".include?(area)
         region = 'Bordeaux'
-      elsif winery.area != '' && "Batard-Montrachet, B Beaujolais Bourgogne Burgundy Chablis Cote Chalonnaise Cote de Beaune Cote de Nuits Julienas, Cru du Bea Maconnais Pouilly-Fuisse Sancerre".include?(winery.area)
+      elsif area != '' && "Batard-Montrachet, B Beaujolais Bourgogne Burgundy Chablis Cote Chalonnaise Cote de Beaune Cote de Nuits Julienas, Cru du Bea Maconnais Pouilly-Fuisse Sancerre".include?(area)
         region = 'Burgundy'
-      elsif winery.area != '' && "Champagne Reims".include?(winery.area)
+      elsif (area != '' && "Champagne Reims Epernay".include?(area)) || province == 'Champagne'
         region = 'Champagne'
+      else
+        region = 'France'
       end
 
-    when 'United Kingdom'
-      region = 'United Kingdom'
-    when 'Spain'
-      region = 'Spain'
-    when 'Argentina'
-      region = 'Argentina'
-    when 'Portugal'
-      region = 'Portugal'
-     when 'Australia'
-       region = 'Australia'
-     when 'Chile'
-       region = 'Chile'
-     when 'New Zealand'
-       region = 'New Zealand'
-     when 'Mexico'
-       region = 'Americas'
-     when 'Germany'
-       region = 'Germany'
-     when 'South Africa'
-       region = 'South Africa'
-     when 'Austria'
-       region = 'Europe'
-     when 'Greece'
-       region = 'Europe'
-     when 'Hungary'
-       region = 'Europe'
-     when 'Israel'
-       region = 'Israel'
-     when 'Turkey'
-       region = 'Asia'
-     when 'Slovenia'
-       region = 'Europe'
-     when 'Croatia'
-       region = 'Europe'
-     when 'Uruguay'
-       region = 'Americas'
-     when 'India'
-       region = 'Asia'
-     when 'Bulgaria'
-       region = 'Europe'
-     when 'Lebanon'
-       region = 'Lebanon'
-     when 'Macedonia'
-       region = 'Europe'
-     when 'Switzerland'
-       region = 'Europe'
-     when 'Romania'
-       region = 'Europe'
-     when 'Georgia'
-       region = 'Europe'
-     when 'Russia'
-       region = 'Europe'
-     when 'Poland'
-       region = 'Europe'
-     when 'Peru'
-       region = 'Americas'
-     when 'Luxembourg'
-       region = 'Europe'
-     when 'Ukraine'
-       region = 'Europe'
-     when 'Brazil'
-       region = 'Americas'
-     when 'Serbia'
-       region = 'Europe'
-     else
-       region = 'UNKNOWN REGION'
-  end
+    when 'United Kingdom' then region = 'United Kingdom'
+    when 'Spain'          then region = 'Spain'
+    when 'Argentina'      then region = 'Argentina'
+    when 'Portugal'       then region = 'Portugal'
+    when 'Australia'      then region = 'Australia'
+    when 'Chile'          then region = 'Chile'
+    when 'New Zealand'   then region = 'New Zealand'
+     when 'Mexico'        then region = 'Americas'
+     when 'Germany'       then region = 'Germany'
+     when 'South Africa'  then region = 'South Africa'
+     when 'Austria'       then region = 'Europe'
+     when 'Greece'        then region = 'Europe'
+     when 'Hungary'       then region = 'Europe'
+     when 'Israel'        then region = 'Israel'
+     when 'Turkey'        then region = 'Asia'
+     when 'Slovenia'      then region = 'Europe'
+     when 'Croatia'       then region = 'Europe'
+     when 'Uruguay'       then region = 'Americas'
+     when 'India'         then region = 'Asia'
+     when 'Bulgaria'      then region = 'Europe'
+     when 'Lebanon'       then region = 'Lebanon'
+     when 'Macedonia'     then region = 'Europe'
+     when 'Switzerland'   then region = 'Europe'
+     when 'Romania'       then region = 'Europe'
+     when 'Georgia'       then region = 'Europe'
+     when 'Russia'        then region = 'Europe'
+     when 'Poland'        then region = 'Europe'
+     when 'Peru'          then region = 'Americas'
+     when 'Luxembourg'    then region = 'Europe'
+     when 'Ukraine'       then region = 'Europe'
+     when 'Brazil'        then region = 'Americas'
+     when 'Serbia'        then region = 'Europe'
+
+     else region = 'UNKNOWN REGION'
+    end
 
   return region
 
@@ -279,20 +256,22 @@ end
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # change to false to process all data, only 1000 rows otherwise
-TEST_RUN = true
-TEST_MAX = 10
+TEST_RUN = false
+TEST_MAX = 5000
 SILENT = true
 
 Wine.delete_all
 Winery.delete_all
 Region.delete_all
+Grape.delete_all
 
 api = WineFromApi.all
 
-created = 0
+winery_count = 0
 skipped = 0
 wine_count = 0
 region_count = 0
+grape_count = 0
 
 puts("runtime options TEST_RUN=#{TEST_RUN} TEST_MAX=#{TEST_MAX} SILENT=#{SILENT}")
 
@@ -300,7 +279,8 @@ api.each do |api|
 
   break if TEST_RUN && wine_count == TEST_MAX
 
-  if !@this_winery = Winery.find_by(name: api["winery"], country: api["country"], province: api["province"])
+  if !@this_winery = Winery.find_by(name: api["winery"])
+  # , country: api["country"], province: api["province"])
     @this_winery = Winery.new(
       area: api["area"],
       country: api["country"],
@@ -313,6 +293,8 @@ api.each do |api|
 
     region = get_region(@this_winery)
 
+    # puts("region: #{region} area: '#{@this_winery.area}' country: '#{@this_winery.country}' province: '#{@this_winery.province}' ")
+
     if !@this_region = Region.find_by(name: region)
       @this_region = Region.new(
         name: region
@@ -320,37 +302,64 @@ api.each do |api|
       if @this_region.save
         puts("saved Region #{region}") if !SILENT
         region_count = region_count + 1
+      else
+        puts("Region save failed", @this_region)
+        break
       end
     end
 
     @this_winery.region = @this_region
 
     if @this_winery.save
-      puts("saved Winery #{created} #{api["winery"]}") if !SILENT
-      created = created+1
+      puts("saved Winery #{winery_count} #{api["winery"]}") if !SILENT
+      winery_count = winery_count+1
+    else
+      puts("Winery save failed", @this_winery)
+      break
     end
   else
     skipped = skipped+1
     puts("skipped Winery #{api["winery"]}") if !SILENT
   end
+
   @wine = Wine.new(
     name: api["name"],
     style: api["style"],
     wine_type: api["wine_type"],
-    varietal: api["varietal"],
     api_id: api["id"],
     vintage: api["vintage"],
     winery: @this_winery
   )
 
+  grape = get_grape(api["varietal"], @wine.wine_type)
+
+  if !@this_grape = Grape.find_by(name: grape)
+    @this_grape = Grape.new(
+      name: grape
+    )
+    if @this_grape.save
+      puts("saved Grape #{grape}") if !SILENT
+      grape_count = grape_count + 1
+    else
+      puts("Grape save failed", @this_grape)
+      break
+    end
+
+  end
+
+  @wine.grape = @this_grape
+
   if @wine.save
     puts("saved Wine #{api["name"]}") if !SILENT
+  else
+    puts("Wine save failed", @wine)
+    break
   end
   wine_count = wine_count + 1
 
-  if created % 5000 == 0
-    puts("progress: saved wineries=#{created} skipped=#{skipped} saved wines=#{wine_count} regions=#{region_count}")
+  if wine_count % 1000 == 0
+    puts("progress: wineries=#{winery_count} wines=#{wine_count} regions=#{region_count} grapes=#{grape_count}")
   end
 
 end
-puts("completed: saved wineries=#{created} skipped=#{skipped} saved wines=#{wine_count} regions=#{region_count}")
+puts("completed: wineries=#{winery_count} (skipped=#{skipped})  wines=#{wine_count} regions=#{region_count} grapes=#{grape_count}")
