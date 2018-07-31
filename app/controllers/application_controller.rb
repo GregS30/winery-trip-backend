@@ -2,7 +2,7 @@ class ApplicationController < ActionController::API
 
   #create token helpers
   def secret_key
-    ENV["SECRET_KEY"]
+    ENV['SECRET_KEY']
   end
 
 

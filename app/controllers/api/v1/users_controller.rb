@@ -1,8 +1,10 @@
 class Api::V1::UsersController < ApplicationController
-  before_action :authenticate, only: [show]
-  before_action :requires_user, only: [show]
+  # before_action :authenticate, only: [show]
+  # before_action :requires_user, only: [show]
 
-  def show
+  def index
+    @users = User.all
+    render json: @users
   end
 
   def create
@@ -11,9 +13,9 @@ class Api::V1::UsersController < ApplicationController
     @user.password = params[:password]
     if @user.save
       render json: {
-            username: @user.username,
+            username: @user.name,
             id: @user.id,
-            token: gen_token()
+            token: generate_token()
           }
     else
       render json: {

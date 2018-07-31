@@ -6,7 +6,7 @@ class Api::V1::SessionsController < ApplicationController
       render json: {
         username: @user.name,
         id: @user.id,
-        token: gen_token()
+        token: generate_token()
       }
     else
       render json: {
