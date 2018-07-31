@@ -14,7 +14,7 @@ gem 'puma', '~> 3.11'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -51,3 +51,6 @@ gem 'json'
 
 #Gem for reading .env hidden files with API keys
 gem "dotenv-rails"
+
+#Gem for managing tokens
+gem "jwt"
