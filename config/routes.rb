@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       post "/signup" => "users#create"
       get "/users" => "users#index"
       post "/sessions" => "sessions#create"
+      get "/current_user" => "users#current_user"
     end
   end
 
