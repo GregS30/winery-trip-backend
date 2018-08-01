@@ -49,6 +49,13 @@ class Api::V1::WineriesController < ApplicationController
     render json: @wineries
   end
 
+  def show
+    @trip = Trip.find_by(user_id: params[:id])
+    @wineries = TripWinery.all.select {|item| item.trip_id == @trip.id }
+    @myWineries = @wineries.map { |winery| Winery.find(winery.winery_id) }
+    render json: @myWineries
+  end
+
   def create
     @trip = Trip.find_by(user_id: params[:id])
     @winery = Winery.find(params[:winery_id])
