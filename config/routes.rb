@@ -11,6 +11,9 @@ Rails.application.routes.draw do
       get "/users" => "users#index"
       post "/sessions" => "sessions#create"
       get "/current_user" => "users#current_user"
+      post "/users/:id/wineries" => "wineries#create"
+      get "/users/:id/wineries" => "wineries#show"
+
     end
   end
 

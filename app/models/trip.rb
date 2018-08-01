@@ -1,4 +1,5 @@
 class Trip < ApplicationRecord
-  has_many :trip_wineries
   belongs_to :user
+  has_many :trip_wineries
+
 end

@@ -12,11 +12,16 @@ class Api::V1::UsersController < ApplicationController
     @user.name = params[:username]
     @user.password = params[:password]
     if @user.save
-      render json: {
-            username: @user.name,
-            id: @user.id,
-            token: generate_token()
-          }
+      @trip = Trip.new
+      @trip.name = @user.name
+      @trip.user_id = @user.id
+      if @trip.save
+        render json: {
+              username: @user.name,
+              id: @user.id,
+              token: generate_token()
+            }
+      end
     else
       render json: {
         errors: @user.errors.full_messages
