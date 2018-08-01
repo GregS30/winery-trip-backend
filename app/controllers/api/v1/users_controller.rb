@@ -27,7 +27,10 @@ class Api::V1::UsersController < ApplicationController
   def current_user
     @user = User.find_by(id: get_token_payload("sub"))
     if !!@user
-      render json: @user
+      render json: {
+        username: @user.name,
+        id: @user.id
+      }
     else
       render json: {
         message: "Invalid token"
