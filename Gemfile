@@ -54,3 +54,6 @@ gem "dotenv-rails"
 
 #Gem for managing tokens
 gem "jwt"
+
+#Gem for serializing
+# gem 'active_model_serializers'
