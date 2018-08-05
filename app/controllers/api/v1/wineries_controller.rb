@@ -41,6 +41,8 @@ class Api::V1::WineriesController < ApplicationController
       sql = sql + " where " + join_sql + filter_sql
     end
 
+    sql = sql + " order by y.name"
+
     puts("sql: #{sql}")
 
     #    @wineries = Winery.all

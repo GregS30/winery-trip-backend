@@ -2,8 +2,6 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :wines, only: [:index]
-      resources :regions, only: [:index]
-      resources :grapes, only: [:index]
 
       get "/wineries" => "wineries#index"
       get "/winery" => "wineries#return_winery_api_results"
@@ -13,9 +11,9 @@ Rails.application.routes.draw do
       get "/current_user" => "users#current_user"
       post "/users/:id/wineries" => "wineries#create"
       get "/users/:id/wineries" => "wineries#show"
+      get "/grapes_regions" => "grapes_regions#index"
 
     end
   end
-
 
 end
