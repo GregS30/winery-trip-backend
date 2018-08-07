@@ -12,7 +12,7 @@ Rails.application.routes.draw do
       post "/users/:id/wineries" => "wineries#create"
       get "/users/:id/wineries" => "wineries#show"
       get "/grapes_regions" => "grapes_regions#index"
-
+      get "/trips/:id" => "trips#show"
     end
   end
 

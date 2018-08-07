@@ -56,4 +56,4 @@ gem "dotenv-rails"
 gem "jwt"
 
 #More gems!
-gem 'active_model_serializers'
+#gem 'active_model_serializers'

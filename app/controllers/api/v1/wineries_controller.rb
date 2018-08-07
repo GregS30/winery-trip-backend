@@ -13,6 +13,7 @@ class Api::V1::WineriesController < ApplicationController
     # default region to Napa Valley
     if !grape and !region
       region = "Napa Valley"
+      grape = "Merlot"
     end
 
     puts("region: #{region}")
@@ -52,6 +53,7 @@ class Api::V1::WineriesController < ApplicationController
   end
 
   def show
+    # example route http://localhost:3000/api/v1/users/15/wineries
     @trip = Trip.find_by(user_id: params[:id])
     @wineries = TripWinery.all.select {|item| item.trip_id == @trip.id }
     @myWineries = @wineries.map { |winery| Winery.find(winery.winery_id) }
